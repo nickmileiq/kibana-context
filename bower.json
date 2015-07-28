@@ -1,0 +1,21 @@
+{
+  "name": "kibana-context",
+  "version": "0.0.0",
+  "authors": [
+    "Nick Romano <nick.r.romano@gmail.com>"
+  ],
+  "description": "Get a log lines context",
+  "license": "MIT",
+  "homepage": "https://github.com/nickromano/kibana-context",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "moment": "~2.10.6",
+    "jquery": "~2.1.4"
+  }
+}

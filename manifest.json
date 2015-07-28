@@ -1,0 +1,18 @@
+{
+  "name": "Kibana Context",
+  "version": "0.1",
+  "description": "Adds context for log lines in Kibana",
+  "permissions":  [
+    "tabs",
+    "http://*/*",
+    "https://*/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["http://52.2.253.180/*"],
+      "css": ["style.css"],
+      "js": ["bower_components/jquery/dist/jquery.min.js", "bower_components/moment/min/moment.min.js", "context.js"]
+    }
+  ],
+  "manifest_version": 2
+}
